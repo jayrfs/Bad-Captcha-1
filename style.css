@@ -1,0 +1,32 @@
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ooh {
+    margin-top: 35vh;
+}
+
+.outer-box {
+    height: 30vh;
+    width: 60vw;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+.inner-box-top {
+    height: 14vh;
+}
+
+.inner-box-bottom {
+    padding-top: 2.5vh;
+}
+
+#captcha {
+    font-size: 4rem;
+}
+
+html {
+    background-color: moccasin;
+}
