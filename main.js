@@ -17,8 +17,12 @@ function verify(a, b, op) {
     if (eval(a + op + b) == inputBox.value){
         passed =  true;
     } else {
-        alert("WRONG CAPTCHA!")
-        location.reload()
+        setTimeout(function(){
+            alert("WRONG CAPTCHA!")
+        }, 1000);
+        setTimeout(function(){
+            inputBox.value = ""
+        }, 200);
     }
 }
 
